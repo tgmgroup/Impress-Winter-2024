@@ -1,6 +1,6 @@
 
 
-var audioElements = document.querySelectorAll('audio');
+// var audioElements = document.querySelectorAll('audio');
 
 function PlayAndShow(audioSound, textDiv, audioImage) {
     var myText = document.getElementById(textDiv);
