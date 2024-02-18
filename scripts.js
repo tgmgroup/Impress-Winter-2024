@@ -7,7 +7,7 @@ function PlayAndShow(audioSound, textDiv, audioImage) {
     var myAudio = document.getElementById(audioSound);
     var myButton = document.getElementById(audioImage);
 
-    audioElements.forEach(function(audio) {
+    /*audioElements.forEach(function(audio) {
         if (audio.id === audioSound) {
             // Play the selected audio
             audio.play();
@@ -17,7 +17,7 @@ function PlayAndShow(audioSound, textDiv, audioImage) {
             // Pause other audio elements (optional)
             audio.pause();
         }
-    });
+    });*/
 
      if(myAudio.paused) {
         myAudio.play();
