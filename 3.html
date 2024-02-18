@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <link href="style.css" rel="stylesheet">
+    <link href="slideshowsimple.css" rel="stylesheet">
+    <meta name="viewport" content="width=1920, height=1080, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Impress Magazine - Winter, 2024</title>
+    <link rel="icon" type="image/x-icon" href="nav-images/logo.png">
+    <link id="favicon" rel="shortcut icon" href="nav-images/logo.png">
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+    <div id="viewport">
+    <div id="container">
+        <!-- Left Menu -->
+
+        <div class="item sidebar sidebar-left">
+            <div class="item header header-left">
+                <form>
+
+                    <!-- Change Impress button to Full Page button -->
+
+                    <!-- <button class="menu-button clickable" type="submit" formaction="index.html" >
+                        <h6>Impress<br>Magazine</h6>
+                    </button> -->
+                    <button class="menu-button clickable" type="button" onclick="toggleFullScreen();">
+                        <h5>Impress<small><br>大きく・小さく</small></h5>
+                    </button>
+                </form>
+            </div>
+
+            <div class="left-menu">
+                <a href="index.html" target="_self">
+                    <div class="left-menu-button"><img class="left-menu-image clickable" src="nav-images/front.png"></a>
+                </div>
+                <a href="1.html" target="_self">
+                    <div class="left-menu-button"><img class="left-menu-image clickable" src="nav-images/1.png"></a>
+                </div>
+                <a href="1.html" target="_self">
+                    <div class="left-menu-button"><img class="left-menu-image clickable" src="nav-images/2.png"></a>
+                </div>
+                <a href="3.html" target="_self">
+                    <div class="left-menu-button"><img class="left-menu-image clickable" src="nav-images/3.png"></a>
+                </div>
+                <a href="3.html" target="_self">
+                    <div class="left-menu-button"><img class="left-menu-image clickable" src="nav-images/4.png"></a>
+                </div>
+                <a href="5.html" target="_self">
+                    <div class="left-menu-button"><img class="left-menu-image clickable" src="nav-images/5.png"></a>
+                </div>
+                <a href="5.html" target="_self">
+                    <div class="left-menu-button"><img class="left-menu-image clickable" src="nav-images/6.png"></a>
+                </div>
+                <a href="cover.html" target="_self">
+                    <div class="left-menu-button"><img class="left-menu-image clickable" src="nav-images/back.png"></a>
+                </div>
+                <a href="about.html" target="_self">
+                    <div class="left-menu-button"><img class="left-menu-image clickable" src="nav-images/about.png"></a>
+                </div>
+            </div>
+
+            <div class="item footer footer-left-top">
+                <form>
+                    <button class="menu-button-small clickable" type="submit" formaction="1.html">
+                        <h6>< Previous</h6>
+                    </button>
+                </form>
+            </div>
+            <div class="item footer footer-left-bottom">
+                <form>
+                    <button class="menu-button-small clickable" type="submit" formaction="5.html">
+                        <h6>Next ></h6>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="item gap-left">
+
+        </div>
+
+        <div class="item content-center" style="background-image: url('Web/page034.jpg'); background-size: contain; background-position: left; background-attachment: local; background-repeat: no-repeat; background-color: #000000;">
+        <div class="center-items">
+            
+            <!-- Buttons for Displaying Gallery -->
+
+            <button class="center-items " type="button" onClick="PlayAndShow('audio1-0', 'text1-0', 'play1-0')" style="position: absolute; top: 5vw; left:89vw;">
+                <img id="play1-0" class="audio-button-image clickable" src="nav-images/play-g79150a13d_1280.png">
+                <h6>Gallery</h6>
+            </button>
+
+            <div class="items hidden-text" id="text1-0">
+                <!-- Modal content -->
+                <div class="modal-content-slideshow">
+                    <div class="modal-header">
+                        <span class="close clickable" onClick="ResetPlayAndShow('audio1-0', 'text1-0', 'play1-0')">&times;</span>
+                    </div>
+                    <div class="modal-body">
+
+
+                        <!-- Add the image slideshow here -->
+                        <div id="slideshow-container" class="slideshow-container">
+
+                            <!-- Full-width images with number text -->
+                            <div class="mySlides">
+                              <div class="numbertext">1 / 31</div>
+                                 <img src="Web\MBM\MBM (1).jpg" style="max-height:85vh">
+                            </div>
+                              <div class="mySlides">
+                                <div class="numbertext">2 / 31</div>
+                                   <img src="Web\MBM\MBM (2).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">3 / 31</div>
+                                   <img src="Web\MBM\MBM (3).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">4 / 31</div>
+                                   <img src="Web\MBM\MBM (4).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">5 / 31</div>
+                                   <img src="Web\MBM\MBM (5).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">6 / 31</div>
+                                   <img src="Web\MBM\MBM (6).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">7 / 31</div>
+                                   <img src="Web\MBM\MBM (7).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">8 / 31</div>
+                                   <img src="Web\MBM\MBM (8).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">9 / 31</div>
+                                   <img src="Web\MBM\MBM (9).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">10 / 31</div>
+                                   <img src="Web\MBM\MBM (10).jpg" style="max-height:85vh">
+                              </div>
+                            <div class="mySlides">
+                                <div class="numbertext">11 / 31</div>
+                                   <img src="Web\MBM\MBM (11).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">12 / 31</div>
+                                   <img src="Web\MBM\MBM (12).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">13 / 31</div>
+                                   <img src="Web\MBM\MBM (13).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">14 / 31</div>
+                                   <img src="Web\MBM\MBM (14).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">15 / 31</div>
+                                   <img src="Web\MBM\MBM (15).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">16 / 31</div>
+                                   <img src="Web\MBM\MBM (16).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">17 / 31</div>
+                                   <img src="Web\MBM\MBM (17).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">18 / 31</div>
+                                   <img src="Web\MBM\MBM (18).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">19 / 31</div>
+                                   <img src="Web\MBM\MBM (19).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">20 / 31</div>
+                                   <img src="Web\MBM\MBM (20).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">21 / 31</div>
+                                   <img src="Web\MBM\MBM (21).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">22 / 31</div>
+                                   <img src="Web\MBM\MBM (22).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">23 / 31</div>
+                                   <img src="Web\MBM\MBM (23).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">24 / 31</div>
+                                   <img src="Web\MBM\MBM (24).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">25 / 31</div>
+                                   <img src="Web\MBM\MBM (25).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">26 / 31</div>
+                                   <img src="Web\MBM\MBM (26).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">27 / 31</div>
+                                   <img src="Web\MBM\MBM (27).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">28 / 31</div>
+                                   <img src="Web\MBM\MBM (28).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">29 / 31</div>
+                                   <img src="Web\MBM\MBM (29).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">30 / 31</div>
+                                   <img src="Web\MBM\MBM (30).jpg" style="max-height:85vh">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">31 / 31</div>
+                                   <img src="Web\MBM\MBM (31).jpg" style="max-height:85vh">
+                              </div>
+                            
+
+
+                        <!-- Navigation buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        <br>
+                        <div class="modal-footer">
+                        </div>
+
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot clickable" onclick="currentSlide(1)"></span>
+                            <span class="dot clickable" onclick="currentSlide(2)"></span>
+                            <span class="dot clickable" onclick="currentSlide(3)"></span>
+                            <span class="dot clickable" onclick="currentSlide(4)"></span>
+                            <span class="dot clickable" onclick="currentSlide(5)"></span>
+                            <span class="dot clickable" onclick="currentSlide(6)"></span>
+                            <span class="dot clickable" onclick="currentSlide(7)"></span>
+                            <span class="dot clickable" onclick="currentSlide(8)"></span>
+                            <span class="dot clickable" onclick="currentSlide(8)"></span>
+                            <span class="dot clickable" onclick="currentSlide(10)"></span>
+                            <span class="dot clickable" onclick="currentSlide(11)"></span>
+                            <span class="dot clickable" onclick="currentSlide(12)"></span>
+                            <span class="dot clickable" onclick="currentSlide(13)"></span>
+                            <span class="dot clickable" onclick="currentSlide(14)"></span>
+                            <span class="dot clickable" onclick="currentSlide(15)"></span>
+                            <span class="dot clickable" onclick="currentSlide(16)"></span>
+                            <span class="dot clickable" onclick="currentSlide(17)"></span>
+                            <span class="dot clickable" onclick="currentSlide(18)"></span>
+                            <span class="dot clickable" onclick="currentSlide(19)"></span>
+                            <span class="dot clickable" onclick="currentSlide(20)"></span>
+                            <span class="dot clickable" onclick="currentSlide(21)"></span>
+                            <span class="dot clickable" onclick="currentSlide(22)"></span>
+                            <span class="dot clickable" onclick="currentSlide(23)"></span>
+                            <span class="dot clickable" onclick="currentSlide(24)"></span>
+                            <span class="dot clickable" onclick="currentSlide(25)"></span>
+                            <span class="dot clickable" onclick="currentSlide(26)"></span>
+                            <span class="dot clickable" onclick="currentSlide(27)"></span>
+                            <span class="dot clickable" onclick="currentSlide(28)"></span>
+                            <span class="dot clickable" onclick="currentSlide(29)"></span>
+                            <span class="dot clickable" onclick="currentSlide(30)"></span>
+                            <span class="dot clickable" onclick="currentSlide(31)"></span>
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <br>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Audio for Intro Text -->
+
+            <audio id="audio1-0" class="playondemand">
+                <source src="./audio/audio1-0.mp3" type="audio/mp3">
+            </audio>
+                
+
+
+
+        </div>
+    </div>
+
+
+    
+</div>
+
+
+
+
+
+</div>
+
+
+
+<script>
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+} 
+</script>
+
+</div>
+</body>
+</html>
+
+
