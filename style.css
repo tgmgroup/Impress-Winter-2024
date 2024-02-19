@@ -360,8 +360,8 @@ a.button {
 }
 
 .right-nav-buttons {
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+
     background-color: rgba(255, 255, 255, 0.308);
     box-shadow: 0vw .01vw .05vw rgba(0, 0, 0, 0.5);
 }
