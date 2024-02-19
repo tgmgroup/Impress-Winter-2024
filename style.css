@@ -221,7 +221,7 @@ small {
     height: 6.2vw;
     width: 6.2vw;
 
-    background-image: linear-gradient(160deg, #f0eff3 0%, #351201 127%);
+    background-image: linear-gradient(160deg, #f0eff3 0%, #0e0135 127%);
     border-radius: .10vw;
     box-shadow: 0vw .1vw .5vw rgba(0, 0, 0, 0.5);
     border: 0vw;
@@ -238,7 +238,7 @@ small {
 }
 
 .menu-button:hover {
-    background-color: rgba(73, 36, 3, 0.884);
+    background-color: rgba(16, 3, 73, 0.884);
     transition: background-color 0.2s;
     height: 7vw;
     width: 7vw;
@@ -248,7 +248,7 @@ small {
     height: 3.1vw;
     width: 6.2vw;
 
-    background-image: linear-gradient(160deg, #f0eff3 0%, #351a01 127%);
+    background-image: linear-gradient(160deg, #f0eff3 0%, #0b0135 127%);
     border-radius: .10vw;
     box-shadow: 0vw .1vw .5vw rgba(0, 0, 0, 0.5);
     border: 0vw;
@@ -267,7 +267,7 @@ small {
 }
 
 .menu-button-small:hover {
-    background-color: rgba(124, 53, 6, 0.884);
+    background-color: rgba(28, 6, 124, 0.884);
     transition: background-color 0.2s;
     height: 4vw;
     width: 7vw;
@@ -282,7 +282,7 @@ small {
 }
 
 .audio-button-image:hover {
-    background-color: rgba(255, 218, 173, 0.884);
+    background-color: rgba(173, 196, 255, 0.884);
     transition: background-color 0.2s;
     max-height: 3.3vw;
     max-width: 3.3vw;
@@ -297,7 +297,7 @@ small {
 }
 
 .audio-button-image-small:hover {
-    background-color: rgba(255, 218, 173, 0.884);
+    background-color: rgba(181, 173, 255, 0.884);
     transition: background-color 0.2s;
     max-height: 2vw;
     max-width: 2vw;
@@ -321,7 +321,7 @@ a.button {
 }
 
 .qr-button-image:hover {
-    background-color: rgba(255, 218, 173, 0.884);
+    background-color: rgba(189, 173, 255, 0.884);
     transition: background-color 0.2s;
     max-height: 5.8vw;
     max-width: 5.8vw;
@@ -336,7 +336,7 @@ a.button {
 }
 
 .qr-button-image-large:hover {
-    background-color: rgba(255, 218, 173, 0.884);
+    background-color: rgba(184, 173, 255, 0.884);
     transition: background-color 0.2s;
     max-height: 10.7vw;
     max-width: 10.7vw;
@@ -357,6 +357,13 @@ a.button {
     border-radius: 0.1vw;
     border-radius: .8vw;
     padding: .5vw;
+}
+
+.right-nav-buttons {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.308);
+    box-shadow: 0vw .01vw .05vw rgba(0, 0, 0, 0.5);
 }
 
 .hidden-fill-image {
@@ -438,12 +445,12 @@ a.button {
     box-shadow: 0vw .1vw .5vw rgba(0, 0, 0, 0.5);
     height: 2.7vw;
     width: 2.7vw;
-    background-color:#fdf3de;
+    background-color:#dfdefd;
     object-fit: contain;
 }
 
 .left-menu-image:hover {
-    background-color: rgba(255, 204, 173, 0.884);
+    background-color: rgba(173, 178, 255, 0.884);
     transition: background-color 0.2s;
     height: 3.5vw;
     width: 3.5vw;
