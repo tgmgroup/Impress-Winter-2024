@@ -108,7 +108,7 @@ body, html {
         width: 100%;
         grid-gap: 0vw;
         border: 0vw;
-        z-index: 2;
+        z-index: 3;
         /*background-image: url('./Web/page01.jpg');
         background-size: contain; 
         background-position: center; 
@@ -348,8 +348,7 @@ a.button {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.051);
     border: none;
-    height: 5vw;
-    width: 10vw;
+
 
     color: white;
     font-family:'Klee One';
@@ -360,6 +359,8 @@ a.button {
 }
 
 .right-nav-buttons {
+    height: 5vw;
+    width: 10vw;
     justify-content: left;
 
     background-color: rgba(255, 255, 255, 0.308);
@@ -529,7 +530,7 @@ a.button {
     text-align: center;
     justify-content:center;
     vertical-align: middle;
-    display: none;
+    z-index: 100;
   }
   
   /* Modal Content */
